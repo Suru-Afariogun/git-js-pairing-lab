@@ -82,6 +82,17 @@ const isNegative = (num) =>{
 
 
 
+//Q9
 
+const betweenTwentyAndFourty = (int)  =>{
+    if (int >20 && int <40){
+        return 'True'
+    }else{ return 'False'}
+  }
+  
+  console.log(betweenTwentyAndFourty(20))
+  console.log(betweenTwentyAndFourty(21))
+  console.log(betweenTwentyAndFourty(39))
+  console.log(betweenTwentyAndFourty(40))
  
  
