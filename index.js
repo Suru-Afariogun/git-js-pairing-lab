@@ -81,18 +81,32 @@ const isNegative = (num) =>{
 // triangleArea(6, 8)    //returns 24
 
 
-
 //Q9
-
 const betweenTwentyAndFourty = (int)  =>{
     if (int >20 && int <40){
         return 'True'
     }else{ return 'False'}
   }
   
-  console.log(betweenTwentyAndFourty(20))
-  console.log(betweenTwentyAndFourty(21))
-  console.log(betweenTwentyAndFourty(39))
-  console.log(betweenTwentyAndFourty(40))
+  // console.log(betweenTwentyAndFourty(20))
+  // console.log(betweenTwentyAndFourty(21))
+  // console.log(betweenTwentyAndFourty(39))
+  // console.log(betweenTwentyAndFourty(40))
+
+  //Q10
+  const largest = (n1, n2, n3) => {
+    let arr = [n1, n2, n3]
+    let largestNum = 0
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] > largestNum) {
+            largestNum = arr[i]
+        }
+    }
+    console.log(largestNum) 
+}
+
+// largest(4, 6, 8)        //returns 8
+// largest(30, 22, 17)     //returns 30
+// largest(41, 108, 86)    //returns 108
  
  
