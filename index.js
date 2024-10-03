@@ -59,6 +59,18 @@ const tripleSum = (n1, n2) => {
 
 //console.log(tripleSum(3, 3))
 
+//Q7
+
+const isNegative = (num) =>{
+    if (num < 0){
+        console.log('True')
+    }else{console.log('False')}
+  }
+  
+  isNegative(3)
+  isNegative(-2)
+  isNegative(Math.Pi)
+
 
 
  
