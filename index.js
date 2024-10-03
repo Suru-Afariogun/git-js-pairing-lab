@@ -36,23 +36,30 @@ const untilNum = (num) => {
       console.log(i)
   }
 }
-
+//untilNum(10);
 
 //Q5
-
-
-
 const multiply = (int1,int2) =>{
     return int1 * int2  
 }
 
-console.log( multiply(2,4) )
-console.log( multiply(10,-5) )
-console.log ( multiply(3,7.5) )
+// console.log( multiply(2,4) )
+// console.log( multiply(10,-5) )
+// console.log ( multiply(3,7.5) )
+
+//Q6
+const tripleSum = (n1, n2) => {
+  let sum = n1 + n2
+  if(n1 === n2) {
+      return sum * 3
+  }else {
+      return sum
+  }
+}
+
+//console.log(tripleSum(3, 3))
 
 
 
-
-//untilNum(10);
  
  
