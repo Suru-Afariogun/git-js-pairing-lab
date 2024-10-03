@@ -60,16 +60,26 @@ const tripleSum = (n1, n2) => {
 //console.log(tripleSum(3, 3))
 
 //Q7
-
 const isNegative = (num) =>{
     if (num < 0){
         console.log('True')
-    }else{console.log('False')}
+    }else {
+      console.log('False')
+    }
   }
   
-  isNegative(3)
-  isNegative(-2)
-  isNegative(Math.Pi)
+  // isNegative(3)
+  // isNegative(-2)
+  // isNegative(Math.Pi)
+
+  //Q8
+  const triangleArea = (base, height) => {
+    return base * height / 2 
+}
+
+// triangleArea(5, 7)    //returns 17.5
+// triangleArea(6, 8)    //returns 24
+
 
 
 
